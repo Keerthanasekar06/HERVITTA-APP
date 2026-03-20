@@ -36,7 +36,7 @@ Existing apps focus on transactions, not understanding.
 ---
 
 ## 🛠️ Tech Stack
-- Antigravity (No-code App Builder)
+- Antigravity 
   
 ---
 
