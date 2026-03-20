@@ -1,9 +1,11 @@
 import 'package:google_generative_ai/google_generative_ai.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import '../domain/models/expense_model.dart';
 import 'package:flutter/foundation.dart';
 
 class ChatbotService {
-  final String _apiKey = 'YOUR_GEMINI_API_KEY_HERE'; 
+  final String _apiKey = dotenv.env['GEMINI_API_KEY'] ?? '';
+  final String _modelName = dotenv.env['GEMINI_MODEL'] ?? 'gemini-1.5-flash';
   GenerativeModel? _model;
   ChatSession? _chat;
 
@@ -11,11 +13,10 @@ class ChatbotService {
     if (_apiKey.isNotEmpty && !_apiKey.contains('YOUR_GEMINI')) {
       try {
         _model = GenerativeModel(
-          model: 'gemini-1.5-flash',
+          model: _modelName,
           apiKey: _apiKey,
           systemInstruction: Content.system(
-            '''You are a supportive, empowering financial mentor specifically for women.
-            You support English and Tamil. Auto-detect language. Keep responses concise and practical. 
+            '''You are a supportive, empowering financial mentor specifically for women. Auto-detect language. Keep responses concise and practical. 
             Avoid technical jargon.''',
           ),
         );

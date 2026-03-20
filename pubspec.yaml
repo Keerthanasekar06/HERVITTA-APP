@@ -13,11 +13,12 @@ dependencies:
   firebase_core: ^2.24.2
   cloud_firestore: ^4.13.6
   fl_chart: ^0.65.0
-  speech_to_text: ^6.6.1
+  speech_to_text: ^7.0.0
   flutter_tts: ^3.8.3
   google_generative_ai: ^0.4.3
   google_fonts: ^6.1.0
   intl: ^0.19.0
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +27,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - .env

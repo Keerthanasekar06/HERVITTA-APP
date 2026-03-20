@@ -1,0 +1,90 @@
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+*.env
+.env.*
+
+# ─── Flutter / Dart ───────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+/coverage/
+doc/api/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# ─── Android ─────────────────────────────────────────────────────────────────
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# ─── iOS ─────────────────────────────────────────────────────────────────────
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/DerivedData/
+**/ios/**/Pods/
+**/ios/**/.generated/
+**/ios/**/Flutter/App.framework
+**/ios/**/Flutter/Flutter.framework
+**/ios/**/Flutter/Flutter.podspec
+**/ios/**/Flutter/Generated.xcconfig
+**/ios/**/Flutter/app.flx
+**/ios/**/Flutter/app.zip
+**/ios/**/Flutter/flutter_assets/
+**/ios/**/Flutter/flutter_export_environment.sh
+**/ios/**/ServiceDefinitions.json
+**/ios/**/Runner/GeneratedPluginRegistrant.*
+**/ios/**/xcuserdata/
+
+# ─── macOS ───────────────────────────────────────────────────────────────────
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# ─── Web ─────────────────────────────────────────────────────────────────────
+lib/generated_plugin_registrant.dart
+
+# ─── IDEs ────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# ─── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+*.log
+*.swp
+*.class
+*.pyc
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/

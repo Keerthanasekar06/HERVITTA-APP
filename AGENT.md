@@ -1,0 +1,2 @@
+- use pnpm for managing the packages
+- don't created documentations create only when explicitly asked
