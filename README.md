@@ -51,7 +51,7 @@ Existing apps focus on transactions, not understanding.
 ## 👩‍💻 Team
 - Krishnapriyabala JS (Team Leader) 
 - Keerthana S  
-- Keerthana K  
+- Keerthanaa K  
 
 ---
 
