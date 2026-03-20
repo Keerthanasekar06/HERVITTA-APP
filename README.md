@@ -1,4 +1,4 @@
-# 🌸 HERVITTA  
+# HERVITTA  
 ### Voice-Assisted Financial Planning for Women
 
 “We are not just tracking money — we are building financial confidence.”
@@ -36,9 +36,8 @@ Existing apps focus on transactions, not understanding.
 ---
 
 ## 🛠️ Tech Stack
-- Antigravity (No-code App Builder)  
-- / Streamlit (Prototype logic)  
-
+- Antigravity (No-code App Builder)
+  
 ---
 
 ## 📱 How It Works
